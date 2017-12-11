@@ -1,0 +1,435 @@
+nohup: ignoring input
+before / Route
+/login Route
+[0mGET /login [32m200 [0m11.172 ms - 722[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.517 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m3.572 ms - 2394[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/app.js:70:9
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/application.js:581:14)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/app.js:59:13
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:330:12)
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-06T03:12:09.094Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m7.663 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m2.665 ms - 736[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.322 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m1.279 ms - 2394[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/app.js:70:9
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/application.js:581:14)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/app.js:59:13
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:330:12)
+login
+{ _id: 5a25c987757ec66236b5e7fb,
+  email: 'nelly@nelly.com',
+  hashed_password: 'VzZSVWIh1MJf2/ggamRbzunmxX4wY0piH3H9tlUfnz4=',
+  username: 'nelly',
+  __v: 0,
+  color: 'Red' }
+[0mPOST /login [36m302 [0m37.754 ms - 46[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-06T03:12:57.720Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  user: '5a25c987757ec66236b5e7fb',
+  username: 'nelly',
+  msg: 'Authenticated as nelly',
+  color: 'Red' }
+/ Route if user
+[0mGET / [32m200 [0m3.589 ms - 788[0m
+[0mGET /javascripts/my_app.js [36m304 [0m1.190 ms - -[0m
+[0mGET /user/profile [36m304 [0m4.772 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m1.931 ms - 2394[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/app.js:70:9
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/application.js:581:14)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/app.js:59:13
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:330:12)
+/user Route
+[0mGET /user [36m304 [0m2.214 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m10.594 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m10.184 ms - -[0m
+[0mGET /user/profile [36m304 [0m1.954 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m1.293 ms - 2394[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/app.js:70:9
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/application.js:581:14)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/app.js:59:13
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:330:12)
+(node:22810) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[0mPOST /user/update [36m302 [0m14.622 ms - 54[0m
+/user Route
+[0mGET /user [32m200 [0m1.826 ms - 1216[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.498 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m2.312 ms - -[0m
+[0mGET /user/profile [36m304 [0m3.448 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m1.465 ms - 2394[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/app.js:70:9
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/application.js:581:14)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/app.js:59:13
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:330:12)
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-06T03:13:06.052Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  user: '5a25c987757ec66236b5e7fb',
+  username: 'nelly',
+  msg: 'User Updated.',
+  color: 'Red' }
+/ Route if user
+[0mGET / [32m200 [0m2.225 ms - 779[0m
+[0mGET /javascripts/my_app.js [36m304 [0m0.930 ms - -[0m
+[0mGET /user/profile [36m304 [0m1.735 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m1.132 ms - 2394[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/app.js:70:9
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/application.js:581:14)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/app.js:59:13
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:330:12)
+/logout Route
+[0mGET /logout [36m302 [0m1.482 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m0.838 ms - 722[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.570 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m1.677 ms - 2394[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/app.js:70:9
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/application.js:581:14)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/app.js:59:13
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:330:12)
+/signup Route
+[0mGET /signup [32m200 [0m2.443 ms - 770[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.327 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m0.869 ms - 2394[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/app.js:70:9
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/application.js:581:14)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/app.js:59:13
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:330:12)
+Begin exports.signup
+after new user exports.signup
+after hashing user exports.signup
+after email user exports.signup
+In exports.signup
+null
+[0mPOST /signup [36m302 [0m10.862 ms - 46[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-06T03:13:20.681Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  user: '5a282530680de11a59f03d36',
+  username: 'n',
+  msg: 'Authenticated as n' }
+/ Route if user
+[0mGET / [32m200 [0m2.235 ms - 777[0m
+[0mGET /javascripts/my_app.js [36m304 [0m1.676 ms - -[0m
+[0mGET /user/profile [32m200 [0m1.700 ms - 140[0m
+[0mGET /favicon.ico [31m500 [0m1.819 ms - 2394[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/app.js:70:9
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/application.js:581:14)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/app.js:59:13
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:330:12)
+/user Route
+[0mGET /user [32m200 [0m0.886 ms - 1221[0m
+[0mGET /stylesheets/style.css [36m304 [0m9.627 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m9.638 ms - -[0m
+[0mGET /user/profile [36m304 [0m1.904 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m1.811 ms - 2394[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/app.js:70:9
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/application.js:581:14)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/app.js:59:13
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:330:12)
+[0mPOST /user/update [36m302 [0m5.531 ms - 54[0m
+/user Route
+[0mGET /user [32m200 [0m0.803 ms - 1216[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.949 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m0.732 ms - -[0m
+[0mGET /user/profile [32m200 [0m1.538 ms - 155[0m
+[0mGET /favicon.ico [31m500 [0m0.834 ms - 2394[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/app.js:70:9
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/application.js:581:14)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/app.js:59:13
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:330:12)
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-06T03:13:29.730Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  user: '5a282530680de11a59f03d36',
+  username: 'n',
+  msg: 'User Updated.',
+  color: 'Blue' }
+/ Route if user
+[0mGET / [32m200 [0m1.896 ms - 776[0m
+[0mGET /javascripts/my_app.js [36m304 [0m1.622 ms - -[0m
+[0mGET /user/profile [36m304 [0m1.814 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m2.308 ms - 2394[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/app.js:70:9
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/application.js:581:14)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/app.js:59:13
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:330:12)
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-06T03:13:31.747Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  user: '5a282530680de11a59f03d36',
+  username: 'n',
+  msg: 'User Updated.',
+  color: 'Blue' }
+/ Route if user
+[0mGET / [32m200 [0m29.754 ms - 776[0m
+[0mGET /javascripts/my_app.js [32m200 [0m8.800 ms - 401[0m
+[0mGET /user/profile [32m200 [0m4.937 ms - 155[0m
+[0mGET /favicon.ico [31m500 [0m3.109 ms - 2394[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/app.js:70:9
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/application.js:581:14)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/app.js:59:13
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:330:12)
+/logout Route
+[0mGET /logout [36m302 [0m1.492 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m1.289 ms - 722[0m
+[0mGET /stylesheets/style.css [32m200 [0m3.193 ms - 785[0m
+[0mGET /favicon.ico [31m500 [0m1.355 ms - 2394[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/app.js:70:9
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/application.js:581:14)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/app.js:59:13
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:330:12)
+login
+{ _id: 5a25c987757ec66236b5e7fb,
+  email: 'nelly@nelly.com',
+  hashed_password: 'VzZSVWIh1MJf2/ggamRbzunmxX4wY0piH3H9tlUfnz4=',
+  username: 'nelly',
+  __v: 0,
+  color: 'Red' }
+[0mPOST /login [36m302 [0m3.680 ms - 46[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-11T08:17:26.482Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  user: '5a25c987757ec66236b5e7fb',
+  username: 'nelly',
+  msg: 'Authenticated as nelly',
+  color: 'Red' }
+/ Route if user
+[0mGET / [32m200 [0m1.278 ms - 788[0m
+[0mGET /javascripts/my_app.js [36m304 [0m2.494 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m2.243 ms - 2394[0m
+Error: Failed to lookup view "error" in views directory "/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/views"
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/app.js:70:9
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:271:10)
+    at done (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/application.js:581:14)
+    at ServerResponse.render (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/response.js:961:7)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/app.js:59:13
+    at Layer.handle_error (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:310:13)
+    at /opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/opt/bitnami/apache2/htdocs/lab-6-authentication-tnelsonw/auth/node_modules/express/lib/router/index.js:330:12)
+[0mGET /user/profile [32m200 [0m3.950 ms - 166[0m

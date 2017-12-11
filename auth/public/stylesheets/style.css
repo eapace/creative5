@@ -1,0 +1,49 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#login {
+  background-color: #1963C6;
+  color: white;
+  border-radius: 25px;
+  border: none;
+  padding: 8px 17px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#save {
+  background-color: #1963C6;
+  color: white;
+  border-radius: 25px;
+  border: none;
+  padding: 8px 17px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+}
+
+#delete {
+  background-color: #1963C6;
+  color: white;
+  border-radius: 25px;
+  border: none;
+  padding: 8px 17px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+}
