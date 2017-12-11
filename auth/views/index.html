@@ -1,11 +1,12 @@
 <!doctype html>
 <html ng-app="myApp"> 
+<script src = "https://code.jquery.com/jquery-1.10.2.js"></script>
     
 <head>
     <title>User Login and Sessions</title>
     <link rel="stylesheet" type="text/css" href="/stylesheets/style.css"> 
 </head>
-        
+
 <body background="lotto.jpg">  
 <div class="box">
     <div ng-controller="myController">
@@ -14,8 +15,9 @@
         </h2>
         <a id="logoutLink" href="/logout">logout</a>
         <a id="editLink" href="/user">Edit User</a>
-        <p>These are you lucky lottery numbers!
-            <p>
+        <button id="lotterynum" type="button">Lottery Numbers</button>
+        <div id="lottery">Click to find your lucky lottery numbers!
+            </div>
     </div>
     <hr>
     <span id="indexMsg">
@@ -29,6 +31,24 @@
     <script src="http://code.angularjs.org/1.2.9/angular.min.js"></script>
     <script src="/javascripts/my_app.js"></script>
 </div>
+<script>
+  $("#lotterynum").click(function(e) {
+    e.preventDefault();
+    var all = "<p>";
+    var num = Math.floor((Math.random() * 1000000) + 1);
+    all += num;
+    var myurl = "https://api.chucknorris.io/jokes/random";
+        $.ajax({
+                url:myurl,
+                crossDomain:true,
+                dataType:"json",
+                success: function(parsed_json){
+                        all+="</p>";
+                        $("#lottery").html(all);
+                        }
+                }
+        );
+  });
+</script>
 </body>
-      
 </html>
