@@ -3,7 +3,7 @@
 <script src = "https://code.jquery.com/jquery-1.10.2.js"></script>
     
 <head>
-    <title>User Login and Sessions</title>
+    <title>Lottery Login</title>
     <link rel="stylesheet" type="text/css" href="/stylesheets/style.css"> 
 </head>
 
@@ -37,6 +37,7 @@
     var all = "<p>";
     var num = Math.floor((Math.random() * 1000000) + 1);
     all += num;
+    all += "\n\nCheck back in on January 1st to see if you won!";
     var myurl = "https://api.chucknorris.io/jokes/random";
         $.ajax({
                 url:myurl,
